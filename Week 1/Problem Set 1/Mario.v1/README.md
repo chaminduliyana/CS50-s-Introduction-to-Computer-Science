@@ -98,7 +98,6 @@ int main(void)
 
     // Print a pyramid of that height
 }
-```c
 
 <details>
 <summary>Convert the pseudocode to code</summary>
