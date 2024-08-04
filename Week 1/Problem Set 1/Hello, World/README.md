@@ -53,7 +53,7 @@ Once your code compiles successfully, you can execute your program with:
 ./hello
 ```
 
-Correctness
+**Correctness**
 Execute the below to evaluate the correctness of your code using `check50`, a command-line program that will output happy faces whenever your code passes CS50’s automated tests and sad faces whenever it doesn’t!
 ```
 check50 cs50/problems/2024/x/world
