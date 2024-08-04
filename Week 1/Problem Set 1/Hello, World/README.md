@@ -22,5 +22,10 @@ to make a folder called `world` in your codespace.
 
 Then execute
 ```
-mkdir world
+cd world
 ```
+to change directories into that folder. You should now see your terminal prompt as `world/ $`. You can now execute
+```
+code hello.c
+```
+to create a file called `hello.c` in which you can write your code.
