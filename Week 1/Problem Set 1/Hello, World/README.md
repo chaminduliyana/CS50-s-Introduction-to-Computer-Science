@@ -11,15 +11,15 @@ In a file called `hello.c`, in a folder called `world`, implement a program in C
 <summary>Hint</summary>
 <br>
 Here’s the actual code you should write! (Quite the hint, huh?) Best to type it yourself, though, rather than copy/paste, so that you start to develop some “muscle memory” for writing code.
-<br><br>
-```
+<br><be>
+<pre>
 #include <stdio.h>
 
 int main(void)
 {
     printf("hello, world\n");
 }
-```
+</pre>
 </details>
 
 ## Demo
