@@ -7,6 +7,21 @@ Thanks to Professor [Brian Kernighan](https://en.wikipedia.org/wiki/Brian_Kernig
 
 In a file called `hello.c`, in a folder called `world`, implement a program in C that prints `hello, world\n`, and that’s it!
 
+<details>
+<summary>Hint</summary>
+<br>
+Here’s the actual code you should write! (Quite the hint, huh?) Best to type it yourself, though, rather than copy/paste, so that you start to develop some “muscle memory” for writing code.
+<br><br>
+<pre>
+#include <stdio.h>
+
+int main(void)
+{
+    printf("hello, world\n");
+}
+</pre>
+</details>
+
 ## Demo
 Here’s a demo of what should happen when you compile and execute your program.
 ```
