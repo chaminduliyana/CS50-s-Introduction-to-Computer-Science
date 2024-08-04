@@ -66,8 +66,25 @@ Click the below toggles to read some advice!
 <summary>Write some code that you know will compile</summary>
 <br>
 Even though this program won’t do anything, it should at least compile with <code>make</code>!
-
 </br>
+<pre>
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+
+}
+</pre>
+</details>
+
+<details>
+<summary>Write some pseudocode before writing more code</summary>
+
+If unsure how to solve the problem itself, break it down into smaller problems that you can probably solve first. For instance, this problem is really two problems:
+1. Prompt the user for the pyramid’s height
+2. Print a pyramid of that height
+
 <pre>
 #include <cs50.h>
 #include <stdio.h>
