@@ -277,9 +277,9 @@ int main(void)
 }
 </pre>
 <br>
-Some pseudocode now remains in both main and print_row, so that we leave to you!
+Some pseudocode now remains in both <code>main</code> and <code>print_row</code>, so that we leave to you!
 </br>
 <br>
-And consider whether you could factor out some of the code in main to a get_height function, too, that returns the int you need!
+And consider whether you could factor out some of the code in <code>main</code> to a <code>get_height</code> function, too, that returns the <code>int</code> you need!
 </br>
 </details>
