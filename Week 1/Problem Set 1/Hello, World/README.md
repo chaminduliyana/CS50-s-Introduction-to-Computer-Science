@@ -47,6 +47,7 @@ If you do see an error message, try to fix your code and try to compile it again
 help50 make hello
 ```
 for advice.
+
 Once your code compiles successfully, you can execute your program with:
 ```
 ./hello
