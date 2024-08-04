@@ -54,4 +54,16 @@ Once your code compiles successfully, you can execute your program with:
 ```
 
 # Correctness
-Execute the below to evaluate the correctness of your code using check50, a command-line program that will output happy faces whenever your code passes CS50’s automated tests and sad faces whenever it doesn’t!
+Execute the below to evaluate the correctness of your code using `check50`, a command-line program that will output happy faces whenever your code passes CS50’s automated tests and sad faces whenever it doesn’t!
+```
+check50 cs50/problems/2024/x/world
+```
+
+# Style
+Execute the below to evaluate the style of your code using `style50`, a command-line program that will output additions (in green) and deletions (in red) that you should make to your program in order to improve its style. If you have trouble seeing those colors, `style50` supports other [modes](https://cs50.readthedocs.io/style50/) too!
+```
+style50 hello.c
+```
+
+# How to Submit
+No need to submit this one!
