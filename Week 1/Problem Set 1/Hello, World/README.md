@@ -18,7 +18,8 @@ Here’s the actual code you should write! (Quite the hint, huh?) Best to type i
 int main(void)
 {
     printf("hello, world\n");
-}</pre>
+}
+</pre>
 </details>
 
 ## Demo
