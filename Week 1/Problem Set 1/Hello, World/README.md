@@ -8,7 +8,8 @@ In a file called `hello.c`, in a folder called `world`, implement a program in C
 
 # How to Begin
 
-Open VS Code.
+Open [VS Code](https://cs50.dev/).
+
 Start by clicking inside your terminal window, then execute cd by itself. You should find that its “prompt” resembles the below.
 ```
 $
