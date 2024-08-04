@@ -1,12 +1,6 @@
 # Hello, World
 
-<object width="425" height="350">
-  <param name="movie" value="https://www.youtube.com/watch?v=ufB53UE2Cvo&t=103s" />
-  <param name="wmode" value="transparent" />
-  <embed src="https://www.youtube.com/watch?v=ufB53UE2Cvo&t=103s"
-         type="application/x-shockwave-flash"
-         wmode="transparent" width="425" height="350" />
-</object>
+[![Watch the video](https://img.youtube.com/vi/ufB53UE2Cvo/0.jpg)](https://www.youtube.com/watch?v=ufB53UE2Cvo&t=103s)
 
 # Problem to Solve
 -Thanks to Professor Brian Kernighan (who taught CS50 when David took it!), “hello, world” has been implemented in hundreds of languages. Let’s add your implementation to the list!
