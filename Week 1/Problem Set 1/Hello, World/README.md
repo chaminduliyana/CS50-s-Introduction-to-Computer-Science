@@ -29,3 +29,25 @@ to change directories into that folder. You should now see your terminal prompt 
 code hello.c
 ```
 to create a file called `hello.c` in which you can write your code.
+
+# How to Test
+
+Recall that you can compile `hello.c` with:
+```
+make hello
+```
+If you don’t see an error message, it compiled successfully! You can confirm as much with
+```
+ls
+```
+which should list not only `hello.c` (which is source code) but also `hello` (which is machine code).
+
+If you do see an error message, try to fix your code and try to compile it again. If you don’t understand the error message, though, try executing
+```
+help50 make hello
+```
+for advice.
+Once your code compiles successfully, you can execute your program with:
+```
+./hello
+```
