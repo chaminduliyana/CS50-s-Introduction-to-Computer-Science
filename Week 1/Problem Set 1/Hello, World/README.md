@@ -7,8 +7,16 @@ Thanks to Professor [Brian Kernighan](https://en.wikipedia.org/wiki/Brian_Kernig
 
 In a file called `hello.c`, in a folder called `world`, implement a program in C that prints `hello, world\n`, and that’s it!
 
-## How to Begin
+## Demo
+Here’s a demo of what should happen when you compile and execute your program.
+```
+$ make hello
+$ ./hello
+hello, world
+$
+```
 
+## How to Begin
 Open [VS Code](https://cs50.dev/).
 
 Start by clicking inside your terminal window, then execute cd by itself. You should find that its “prompt” resembles the below.
@@ -32,7 +40,6 @@ code hello.c
 to create a file called `hello.c` in which you can write your code.
 
 ## How to Test
-
 Recall that you can compile `hello.c` with:
 ```
 make hello
