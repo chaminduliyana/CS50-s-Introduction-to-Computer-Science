@@ -52,6 +52,7 @@ to create a file called `hello.c` in which you can write your code.
 ## Walkthrough
 
 Here’s a “walkthrough” (i.e., tour) of this problem, if you’d like a verbal overview of what to do too!
+
 [![Watch the video](https://img.youtube.com/vi/wSk1KSDUEYA/0.jpg)](https://youtu.be/wSk1KSDUEYA?si=unmhkfrRue4Gti-i)
 
 ## How to Test
