@@ -66,6 +66,7 @@ Click the below toggles to read some advice!
 <summary>Write some code that you know will compile</summary>
 <br>
 Even though this program won’t do anything, it should at least compile with <code>make</code>!
+
 </br>
 <pre>
 #include <cs50.h>
