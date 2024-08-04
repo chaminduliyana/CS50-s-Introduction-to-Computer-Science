@@ -14,3 +14,13 @@ Start by clicking inside your terminal window, then execute cd by itself. You sh
 ```
 $
 ```
+Next execute
+```
+mkdir world
+```
+to make a folder called `world` in your codespace.
+
+Then execute
+```
+mkdir world
+```
