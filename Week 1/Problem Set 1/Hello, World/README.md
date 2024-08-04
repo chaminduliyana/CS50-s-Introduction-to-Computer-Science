@@ -2,12 +2,12 @@
 
 [![Watch the video](https://img.youtube.com/vi/ufB53UE2Cvo/0.jpg)](https://www.youtube.com/watch?v=ufB53UE2Cvo&t=103s)
 
-# Problem to Solve
+## Problem to Solve
 Thanks to Professor [Brian Kernighan](https://en.wikipedia.org/wiki/Brian_Kernighan) (who taught CS50 when David took it!), “hello, world” has been implemented in hundreds of languages. Let’s add your implementation to the list!
 
 In a file called `hello.c`, in a folder called `world`, implement a program in C that prints `hello, world\n`, and that’s it!
 
-# How to Begin
+## How to Begin
 
 Open [VS Code](https://cs50.dev/).
 
@@ -31,7 +31,7 @@ code hello.c
 ```
 to create a file called `hello.c` in which you can write your code.
 
-# How to Test
+## How to Test
 
 Recall that you can compile `hello.c` with:
 ```
@@ -66,5 +66,5 @@ Execute the below to evaluate the style of your code using `style50`, a command-
 style50 hello.c
 ```
 
-# How to Submit
+## How to Submit
 No need to submit this one!
