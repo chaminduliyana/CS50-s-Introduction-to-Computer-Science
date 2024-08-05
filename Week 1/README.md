@@ -2,9 +2,9 @@
 
 ## What to Do
 
-1. Log into [submit.cs50.io](https://submit.cs50.io/users/chaminduliyana) using your GitHub account and click Authorize cs50, then close the tab.
+1. Log into [submit.cs50.io](https://submit.cs50.io/users/chaminduliyana) using your GitHub account and click **Authorize cs50**, then close the tab.
 
-2. Log into cs50.dev using your GitHub account to access your very own “codespace.”
+2. Log into [cs50.dev](https://cs50.dev/) using your GitHub account to access your very own “codespace.”
 
 3. Once your codespace has loaded, close any Welcome tabs that might have opened by default.
 
