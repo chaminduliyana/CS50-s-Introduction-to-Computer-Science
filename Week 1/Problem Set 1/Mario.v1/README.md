@@ -303,11 +303,11 @@ And consider whether you could factor out some of the code in `main` to a `get_h
 
 Does your code work as prescribed when you input:
 
--`-1` or other negative numbers?
--`0`?
--`1` or other positive numbers?
--letters or words?
--no input at all, when you only hit Enter?
+- `-1` or other negative numbers?
+- `0`?
+- `1` or other positive numbers?
+- letters or words?
+- no input at all, when you only hit Enter?
 
 ### Correctness
 
