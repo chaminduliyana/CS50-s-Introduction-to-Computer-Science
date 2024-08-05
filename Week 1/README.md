@@ -15,11 +15,11 @@
 6. Submit Hello, It’s Me.
 
 7. Submit one of:
--this version of Mario, if feeling less comfortable
--this version of Mario, if feeling more comfortable
+- this version of Mario, if feeling less comfortable
+- this version of Mario, if feeling more comfortable
 
 8. Submit one of:
--Cash, if feeling less comfortable
--Credit, if feeling more comfortable
+- Cash, if feeling less comfortable
+- Credit, if feeling more comfortable
 
 If you submit both versions of Mario, we’ll record the higher of your two scores. If you submit both Cash and Credit, we’ll record the higher of your two scores.
