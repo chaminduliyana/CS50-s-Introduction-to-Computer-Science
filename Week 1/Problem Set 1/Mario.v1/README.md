@@ -291,3 +291,7 @@ Some pseudocode now remains in both `main` and `print_row`, so that we leave to 
 And consider whether you could factor out some of the code in `main` to a `get_height` function, too, that returns the `int` you need!
 
 </details>
+
+## Walkthrough
+
+! Note this walkthrough specifies your program should prompt the user for a pyramid’s height and re-prompt if the user inputs a value less than 1 or greater than 8. The specification only requires you to re-prompt the user if they input a value less than 1.
