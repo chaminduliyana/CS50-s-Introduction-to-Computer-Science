@@ -103,3 +103,191 @@ int main(void)
 ```
 
 </details>
+
+<details>
+<summary>Convert the pseudocode to code</summary>
+
+First, consider how you might prompt the user for the pyramid’s height. Recall that a `do while` loop is helpful when you want to do something at least once, and possibly again and again, as in the below:
+
+``` c
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    // Prompt the user for the pyramid's height
+    int n;
+    do
+    {
+        n = get_int("Height: ");
+    }
+    while (n < 1);
+
+    // Print a pyramid of that height
+}
+```
+
+Second, consider how you might print a pyramid of that height, from top to bottom. Notice how the first row should have one brick, the second row should have two bricks, and so on. Odds are you’ll want a loop, as in the below, even if not (yet!) sure what to put in that loop. So add some more pseudocode as a comment for now:
+
+``` c
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    // Prompt the user for the pyramid's height
+    int n;
+    do
+    {
+        n = get_int("Height: ");
+    }
+    while (n < 1);
+
+    // Print a pyramid of that height
+    for (int i = 0; i < n; i++)
+    {
+        // Print row of bricks
+    }
+}
+```
+
+How to print that row of bricks? Well, wouldn’t it be nice if there were a function called print_row that could do just that? Let’s suppose that there is:
+
+``` c
+#include <cs50.h>
+#include <stdio.h>
+
+void print_row(int bricks);
+
+int main(void)
+{
+    // Prompt the user for the pyramid's height
+    int n;
+    do
+    {
+        n = get_int("Height: ");
+    }
+    while (n < 1);
+
+    // Print a pyramid of that height
+    for (int i = 0; i < n; i++)
+    {
+        // Print row of bricks
+    }
+}
+
+void print_row(int bricks)
+{
+    // Print row of bricks
+}
+```
+
+We could then call that function from `main`, as in the below:
+
+``` c
+#include <cs50.h>
+#include <stdio.h>
+
+void print_row(int bricks);
+
+int main(void)
+{
+    // Prompt the user for the pyramid's height
+    int n;
+    do
+    {
+        n = get_int("Height: ");
+    }
+    while (n < 1);
+
+    // Print a pyramid of that height
+    for (int i = 0; i < n; i++)
+    {
+        // Print row of bricks
+        print_row(i + 1);
+    }
+}
+
+void print_row(int bricks)
+{
+    // Print row of bricks
+}
+```
+Why `i + 1`, though?
+
+Let’s now implement `print_row`:
+
+``` c
+#include <cs50.h>
+#include <stdio.h>
+
+void print_row(int bricks);
+
+int main(void)
+{
+    // Prompt the user for the pyramid's height
+    int n;
+    do
+    {
+        n = get_int("Height: ");
+    }
+    while (n < 1);
+
+    // Print a pyramid of that height
+    for (int i = 0; i < n; i++)
+    {
+        // Print row of bricks
+        print_row(i + 1);
+    }
+}
+
+void print_row(int bricks)
+{
+    for (int i = 0; i < bricks; i++)
+    {
+        printf("#");
+    }
+    printf("\n");
+}
+```
+
+Why the `\n` at the end, though?
+
+Unfortunately, this code prints a left-aligned pyramid, but you need a right-aligned one! Perhaps we should print some blank spaces before some of the bricks, to move them to the right? Let’s change `print_row` as follows so that it can print both:
+
+``` c
+#include <cs50.h>
+#include <stdio.h>
+
+void print_row(int spaces, int bricks);
+
+int main(void)
+{
+    // Prompt the user for the pyramid's height
+    int n;
+    do
+    {
+        n = get_int("Height: ");
+    }
+    while (n < 1);
+
+    // Print a pyramid of that height
+    for (int i = 0; i < n; i++)
+    {
+        // Print row of bricks
+    }
+}
+
+void print_row(int spaces, int bricks)
+{
+    // Print spaces
+
+    // Print bricks
+}
+```
+
+Some pseudocode now remains in both `main` and `print_row`, so that we leave to you!
+
+And consider whether you could factor out some of the code in `main` to a `get_height` function, too, that returns the `int` you need!
+
+</details>
