@@ -209,15 +209,15 @@ A few problems down, and a few more to go! Notice a pattern you could re-use her
 
 For this program, try testing your code manually. It’s good practice:
 
-- If you input -1, does your program prompt you again?
-- If you input 0, does your program output 0?
-- If you input 1, does your program output 1 (i.e., one penny)?
-- If you input 4, does your program output 4 (i.e., four pennies)?
-- If you input 5, does your program output 1 (i.e., one nickel)?
-- If you input 24, does your program output 6 (i.e., two dimes and four pennies)?
-- If you input 25, does your program output 1 (i.e., one quarter)?
-- If you input 26, does your program output 2 (i.e., one quarter and one penny)?
-- If you input 99, does your program output 9 (i.e., three quarters, two dimes, and four pennies)?
+- If you input `-1`, does your program prompt you again?
+- If you input `0`, does your program output `0`?
+- If you input `1`, does your program output `1`(i.e., one penny)?
+- If you input `4`, does your program output `4`(i.e., four pennies)?
+- If you input `5`, does your program output `1`(i.e., one nickel)?
+- If you input `24`, does your program output `6`(i.e., two dimes and four pennies)?
+- If you input `25`, does your program output `1`(i.e., one quarter)?
+- If you input `26`, does your program output `2`(i.e., one quarter and one penny)?
+- If you input `99`, does your program output `9`(i.e., three quarters, two dimes, and four pennies)?
 
 ### Correctness
 
