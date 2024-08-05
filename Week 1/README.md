@@ -15,8 +15,8 @@
 6. Submit Hello, It’s Me.
 
 7. Submit one of:
-  - this version of Mario, if feeling less comfortable
-  - this version of Mario, if feeling more comfortable
+    - this version of Mario, if feeling less comfortable
+    - this version of Mario, if feeling more comfortable
 
 8. Submit one of:
   - Cash, if feeling less comfortable
