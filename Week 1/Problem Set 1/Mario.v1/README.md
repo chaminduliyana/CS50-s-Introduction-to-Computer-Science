@@ -294,4 +294,5 @@ And consider whether you could factor out some of the code in `main` to a `get_h
 
 ## Walkthrough
 
-> [!Note:] This walkthrough specifies your program should prompt the user for a pyramid's height and *re*-prompt if the user inputs a value less than 1 or greater than 8. The specification only requires you to re-prompt the user if they input a value less than 1.
+> [!NOTE] 
+>This walkthrough specifies your program should prompt the user for a pyramid's height and *re*-prompt if the user inputs a value less than 1 or greater than 8. The specification only requires you to re-prompt the user if they input a value less than 1.
