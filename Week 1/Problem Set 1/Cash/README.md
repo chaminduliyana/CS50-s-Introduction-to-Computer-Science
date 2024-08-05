@@ -235,7 +235,7 @@ Execute the below to evaluate the style of your code using `style50`.
 style50 cash.c
 ```
 
-## style50 cash.c
+## How to Submit
 
 In your terminal, execute the below to submit your work.
 
