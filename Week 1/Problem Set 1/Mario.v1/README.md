@@ -324,3 +324,10 @@ Execute the below to evaluate the style of your code using `style50`.
 ```
 style50 mario.c
 ```
+
+## How to Submit
+
+In your terminal, execute the below to submit your work.
+```
+submit50 cs50/problems/2024/x/mario/less
+```
