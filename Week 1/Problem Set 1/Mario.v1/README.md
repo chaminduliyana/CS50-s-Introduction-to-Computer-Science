@@ -296,3 +296,31 @@ And consider whether you could factor out some of the code in `main` to a `get_h
 
 > [!NOTE] 
 >This walkthrough specifies your program should prompt the user for a pyramid's height and *re*-prompt if the user inputs a value less than 1 or greater than 8. The specification only requires you to re-prompt the user if they input a value less than 1.
+
+[![Watch the video](https://img.youtube.com/vi/NAs4FIWkJ4s/0.jpg)](https://youtu.be/NAs4FIWkJ4s?si=wPYAyuyyWRbPxlE_)
+
+## How to Test
+
+Does your code work as prescribed when you input:
+
+-`-1` or other negative numbers?
+-`0`?
+-`1` or other positive numbers?
+-letters or words?
+-no input at all, when you only hit Enter?
+
+### Correctness
+
+In your terminal, execute the below to check your work’s correctness.
+
+```
+check50 cs50/problems/2024/x/mario/less
+```
+
+### Style
+
+Execute the below to evaluate the style of your code using `style50`.
+
+```
+style50 mario.c
+```
