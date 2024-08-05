@@ -63,17 +63,16 @@ $
 Click the below toggles to read some advice!
 
 <details>
-<summary>Write some code that you know will compile</summary>
+<summary>Hint</summary>
 <br>
-Even though this program won’t do anything, it should at least compile with <code>make</code>!
-</br>
+Here’s the actual code you should write! (Quite the hint, huh?) Best to type it yourself, though, rather than copy/paste, so that you start to develop some “muscle memory” for writing code.
+<br><br>
 <pre>
-#include <cs50.h>
 #include <stdio.h>
 
 int main(void)
 {
-
+    printf("hello, world\n");
 }
 </pre>
 </details>
