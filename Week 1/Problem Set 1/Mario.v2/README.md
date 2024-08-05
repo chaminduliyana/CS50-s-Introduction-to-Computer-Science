@@ -78,9 +78,9 @@ Height: 4
  ###  ###
 ####  ####
 
-Notice that width of the “gap” between adjacent pyramids is equal to the width of two hashes, irrespective of the pyramids’ heights.
-
 </details>
+
+Notice that width of the “gap” between adjacent pyramids is equal to the width of two hashes, irrespective of the pyramids’ heights.
 
 ### Walkthrough
 
