@@ -66,7 +66,6 @@ Click the below toggles to read some advice!
 <details>
 <summary>Write some code that you know will compile</summary>
 
-
 Even though this program won’t do anything, it should at least compile with `make`!
 
 ``` c
