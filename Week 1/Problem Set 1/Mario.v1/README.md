@@ -85,8 +85,8 @@ int main(void)
 
 If unsure how to solve the problem itself, break it down into smaller problems that you can probably solve first. For instance, this problem is really two problems:
 
-1.Prompt the user for the pyramid’s height
-2.Print a pyramid of that height
+1. Prompt the user for the pyramid’s height
+2. Print a pyramid of that height
 So write some pseudcode as comments that remind you to do just that:
 
 ``` c
