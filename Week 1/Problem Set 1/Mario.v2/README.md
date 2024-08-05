@@ -90,14 +90,14 @@ Notice that width of the “gap” between adjacent pyramids is equal to the wid
 
 Does your code work as prescribed when you input
 
-- -1 (or other negative numbers)?
-- 0?
-- 1 through 8?
-- 9 or other positive numbers?
+- `-1` (or other negative numbers)?
+- `0`?
+- `1` through `8`?
+- `9` or other positive numbers?
 - letters or words?
 - no input at all, when you only hit Enter?
 
-You can also execute the below to evaluate the correctness of your code using check50. But be sure to compile and test it yourself as well!
+You can also execute the below to evaluate the correctness of your code using `check50`. But be sure to compile and test it yourself as well!
 
 ### Correctness
 
